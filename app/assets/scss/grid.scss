@@ -1,9 +1,0 @@
-$colonne-nb: 10;
-
-@for $i from 1 through $colonne-nb {
-
-  .col-#{$i} {
-    width: percentage(1 / $i);
-  }
-
-}

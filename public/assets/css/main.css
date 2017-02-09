@@ -1,0 +1,198 @@
+/**
+*******************************************************************************************************
+* CONFIG
+*******************************************************************************************************
+*/
+/**
+******************************************************
+* grille
+******************************************************
+*/
+/**
+******************************************************
+* barre
+******************************************************
+*/
+/**
+*******************************************************************************************************
+* STYLES
+*******************************************************************************************************
+*/
+body {
+  font: 13px/16px arial,sans-serif;
+  margin: 0;
+  border: 0; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+/**
+*******************************************************************************************************
+* BARRE
+*******************************************************************************************************
+*/
+.barre {
+  border-right: 1px solid #e0e0e0;
+  position: fixed;
+  background: #fafafa;
+  min-height: 100vh;
+  width: 100%; }
+
+.col-1 .barre {
+  max-width: 8.33333%; }
+
+.col-2 .barre {
+  max-width: 16.66667%; }
+
+.col-3 .barre {
+  max-width: 25%; }
+
+.col-4 .barre {
+  max-width: 33.33333%; }
+
+.col-5 .barre {
+  max-width: 41.66667%; }
+
+.col-6 .barre {
+  max-width: 50%; }
+
+.col-7 .barre {
+  max-width: 58.33333%; }
+
+.col-8 .barre {
+  max-width: 66.66667%; }
+
+.col-9 .barre {
+  max-width: 75%; }
+
+.col-10 .barre {
+  max-width: 83.33333%; }
+
+.col-11 .barre {
+  max-width: 91.66667%; }
+
+.col-12 .barre {
+  max-width: 100%; }
+
+.barre .action {
+  text-align: right;
+  text-transform: uppercase;
+  color: #fafafa;
+  background-color: #c7c7c7;
+  padding: 15px;
+  font-size: 18px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer; }
+  .barre .action .mdi {
+    font-size: 30px; }
+
+.barre .content {
+  width: 100%;
+  display: block; }
+  .barre .content ul {
+    padding: 0;
+    margin: 0; }
+    .barre .content ul li {
+      list-style: none;
+      font-size: 20px;
+      padding: 10px 0 10px 20px;
+      cursor: pointer; }
+      .barre .content ul li:hover {
+        background-color: #f2f2f2; }
+      .barre .content ul li a {
+        text-decoration: none;
+        color: #222; }
+        .barre .content ul li a .mdi {
+          padding: 10px 25px 10px 10px;
+          display: table-cell; }
+
+/**
+*******************************************************************************************************
+* GRILLE
+*******************************************************************************************************
+*/
+/**
+******************************************************
+* NOUVELLE LIGNE
+******************************************************
+*/
+.ligne {
+  width: 100%;
+  table-layout: fixed;
+  display: table; }
+
+/**
+******************************************************
+* LES COLONNES
+******************************************************
+*/
+.col {
+  display: inline-block;
+  vertical-align: top; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+/**
+******************************************************
+* TESTS DESIGN
+******************************************************
+*/
+.fond {
+  height: 40px; }
+  .fond:nth-child(odd) {
+    background-color: #222; }
+  .fond:nth-child(even) {
+    background-color: #AD141E; }
+
+/**
+*******************************************************************************************************
+* PAGE
+*******************************************************************************************************
+*/
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+.contenu {
+  width: 100%;
+  font-size: 18px; }
+  .contenu p {
+    padding: 20px; }
